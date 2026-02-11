@@ -1,0 +1,5 @@
+{
+     "name": "Sami",
+     "cgoa": 8,
+     "email": "abc@gmail.com"
+}

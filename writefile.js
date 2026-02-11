@@ -1,4 +1,5 @@
 import fs from 'fs'
+import { normalize } from 'path'
 
 
 let content = "This is the student data"
@@ -42,3 +43,4 @@ fs.writeFile("Storage.txt",JSON.stringify(studentdata,null,5), (err)=>{
     })
 })
     */
+console.log("hello")

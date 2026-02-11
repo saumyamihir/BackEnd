@@ -43,4 +43,3 @@ fs.writeFile("Storage.txt",JSON.stringify(studentdata,null,5), (err)=>{
     })
 })
     */
-console.log("hello")

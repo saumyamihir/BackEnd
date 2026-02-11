@@ -1,11 +1,11 @@
 import fs from 'fs'
 
-/*
+
 let content = "This is the student data"
-fs.writeFile("Storage.txt",content , (err)=>{
+fs.writeFile("Storage.txt",content ,{flag:'wx'}, (err)=>{
     if(err)
     {
-        console.log("Error in storing the data")
+        console.log("Error in storing the data because file already exists")
     }
     else
     {
@@ -13,8 +13,8 @@ fs.writeFile("Storage.txt",content , (err)=>{
     }
 
 })
-*/
 
+/*
 let studentdata = {
     name: "Sami",
     cgoa :8,
@@ -41,3 +41,4 @@ fs.writeFile("Storage.txt",JSON.stringify(studentdata,null,5), (err)=>{
         }
     })
 })
+    */

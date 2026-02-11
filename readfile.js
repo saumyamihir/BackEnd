@@ -10,7 +10,12 @@ import fs from 'fs'
 })
 */
 
-let content = fs.readFileSync("sample.txt","utf-8")
+try{
+let content = fs.readFileSync("abc.txt","utf-8")
 console.log("File reafded : ",content)
+}
+catch(err){
+    console.log("Error in reading the file  ")
+}
 console.log("Contents of File")
 

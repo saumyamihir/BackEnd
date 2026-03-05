@@ -10,4 +10,10 @@ app.get("/fetchcookie",(req,res)=>{
     res.send(req.cookies)
     console.log(req.cookies.course)
 })
+app.get("/deletecookie",(req,res)=>{
+    // res.cookie("course","Node.js",{maxAge:-1})
+    // res.cookie("marks",89,(maxAge:-1))
+    res.clearCookie("course")
+    res.send("The cookie is deleted")
+})
 app.listen(3000)

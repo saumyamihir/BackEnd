@@ -1,0 +1,3 @@
+Node js is powerful
+It is used for backend development
+It works with javascript
